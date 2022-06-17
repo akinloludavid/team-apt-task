@@ -302,6 +302,7 @@ const Home = () => {
           lineHeight="17px"
           rightIcon={<Image src={ChevronRight} height="15.75px" w="9px" />}
           gap={8}
+          cursor="pointer"
         >
           Play The Games
         </Button>
@@ -336,7 +337,7 @@ const Home = () => {
             opacity: 0,
           }}
           animate={{
-            y: 100,
+            y: 0,
             opacity: 1,
             transition: {
               delay: 0.1,
