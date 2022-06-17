@@ -313,7 +313,7 @@ const Home = () => {
           position={"absolute"}
           top={[-10]}
           left={["-10%", "0%", "30%"]}
-          w={["20%", "20%", "105.22px"]}
+          w={["20%", "20%", "155.22px"]}
           src={coinLeft}
           mx="auto"
           animation={animation}
@@ -337,7 +337,7 @@ const Home = () => {
             opacity: 0,
           }}
           animate={{
-            y: 0,
+            y: 100,
             opacity: 1,
             transition: {
               delay: 0.1,
@@ -353,7 +353,7 @@ const Home = () => {
       <Box
         overflowX={"clip"}
         maxW="100%"
-        display={["none", "none", "none", "block"]}
+        display={["none", "none", "none", "none"]}
       >
         <Image
           zIndex={"3333"}
